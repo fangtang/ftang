@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" xmlns:wb=“http://open.weibo.com/wb”> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>联系我们 - 方堂文化（北京）有限责任公司</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        <script type="text/javascript" src="http://api.map.baidu.com/api?v=1.5&ak=D365a13a38a7ed5e8dabffc80e8e8421"></script>
+        <script type="text/javascript" src="http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.js"></script>
+        <script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
+<link rel="stylesheet" href="http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.css" />
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- This code is taken from http://twitter.github.com/bootstrap/examples/hero.html -->
+        <div class="navbar navbar-inverse">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a class="brand" href="index.html"><img src="img/logo.png" alt="fangtang" title="Fangtang"/></a>
+                   <div class="nav-collapse collapse">
+                        <ul class="nav">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">方堂出品 <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                	<li><a href="https://itunes.apple.com/cn/app/wu-seng-kuai-pao/id646605665?mt=8" target="_blank">武僧快跑 <small class="en">iPhone/iPad</small></a></li>
+                                    <li><a href="https://itunes.apple.com/cn/app/stone-of-destiny/id581137012" target="_blank">命运宝石 <small class="en">iPhone</small></a></li>
+                                    <li><a href="https://itunes.apple.com/cn/app/ming-yun-bao-shihd/id583287502?mt=8" target="_blank">命运宝石HD <small class="en">iPad</small></a></li>
+                                    <li><a href="https://itunes.apple.com/cn/app/zhuan-jing-tong/id633923947?mt=8" target="_blank">转经筒 <small class="en">iPhone/iPad</small></a></li>
+                                    
+                                </ul>
+                            </li>
+                            <li><a href="about.html">关于</a></li>
+                            <li><a href="jobs.html">招聘</a></li>
+                            <li class="current"><a href="contact.html">联系我们</a></li>
+                            
+                        </ul>
+                        <ul class="nav pull-right">
+
+                        </ul>
+                    </div><!--/.nav-collapse -->
+                </div>
+            </div>
+        </div>
+		<div id="map"></div>
+        <div class="container-fluid contactUs-block">
+
+            <div class="row-fluid">
+            	<div class="span6">
+            		<div class="contactUs-content">
+                    <br/>
+                    <p><i class="icon-envelope icon-white"></i> Email: <a href="mailto:support@ftang.cn">support at ftang.cn</a></p>
+                    <p><i class="icon-user icon-white"></i> Sina Weibo: <small><a href="http://www.weibo.com/beijingfangtang/">@北京方堂</a></small>  | Facebook: <a href="http://www.facebook.com/www.facebook.com/beijingfangtang/">Beijingfangtang</a></p>
+                    <p><i class="icon-map-marker icon-white"></i> Address:<br />
+	                    Room 702, Building 1, Yuanjia International Apartment<br/>
+	                    No.40 Dongzhong Street<br/>
+	                    Dongcheng, Beijing, China<br /><br />
+	                    北京市东城区东中街40号元嘉国际公寓702室
+                    </p>
+            		</div>
+                </div>
+            	<div class="span6" id="phone-wrapper">
+            		<div id="phone">
+            			<div id="weibo">
+            			<iframe id="sina_widget_3155896215" style="width:100%; height:490px;" frameborder="0" scrolling="no" src="http://v.t.sina.com.cn/widget/widget_blog.php?uid=3155896215&height=490&skin=wd_01&showpic=1"></iframe>
+            			</div>
+            		</div>
+            	</div>
+                
+                
+                
+            </div>
+            
+
+        </div> <!-- /container -->
+
+        <footer class="pagefooter">
+                <p>&copy; Fangtang Culture(Beijing) Co., Ltd 2013</p>
+            </footer>
+        <script src="js/vendor/jquery-1.8.3.min.js"></script>
+        <script src="js/vendor/bootstrap.min.js"></script>
+        
+        <script src="js/main.js"></script>
+        <script type="text/javascript">
+		var map = new BMap.Map("map");
+var point = new BMap.Point(116.443286,39.942431);
+map.centerAndZoom(point,14);
+var marker1 = new BMap.Marker(new BMap.Point(116.443286,39.942431));  // 创建标注
+map.addOverlay(marker1);              // 将标注添加到地图中
+var content = '<div style="margin:0;line-height:20px;padding:2px;">'+
+                    '地址：北京市东城区东中街40号元嘉国际公寓1座702<br/>Email：<a href="mailto:support@ftang.cn">support@ftang.cn</a>' +
+                  '</div>';
+//创建信息窗口
+//创建检索信息窗口对象
+    var searchInfoWindow = null;
+	searchInfoWindow = new BMapLib.SearchInfoWindow(map, content, {
+			title  : "方堂文化（北京）有限责任公司",      //标题
+			width  : 290,             //宽度
+			height : 55,              //高度
+			panel  : "panel",         //检索结果面板
+			enableAutoPan : true,     //自动平移
+			searchTypes   :[
+				BMAPLIB_TAB_TO_HERE,  //到这里去
+				BMAPLIB_TAB_FROM_HERE //从这里出发
+			]
+		});
+		searchInfoWindow.open(marker1); //在marker上打开检索信息串口
+		</script>
+    </body>
+</html>

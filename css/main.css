@@ -1,0 +1,353 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+@font-face {
+    font-family: 'PTSansRegular';
+    src: url('font/PTS55F-webfont.eot');
+    src: url('font/PTS55F-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/PTS55F-webfont.woff') format('woff'),
+         url('font/PTS55F-webfont.ttf') format('truetype'),
+         url('font/PTS55F-webfont.svg#PTSansRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'PTSansNarrowBold';
+    src: url('font/PTN77F-webfont.eot');
+    src: url('font/PTN77F-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/PTN77F-webfont.woff') format('woff'),
+         url('font/PTN77F-webfont.ttf') format('truetype'),
+         url('font/PTN77F-webfont.svg#PTSansNarrowBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'PTSansNarrowRegular';
+    src: url('font/PTN57F-webfont.eot');
+    src: url('font/PTN57F-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/PTN57F-webfont.woff') format('woff'),
+         url('font/PTN57F-webfont.ttf') format('truetype'),
+         url('font/PTN57F-webfont.svg#PTSansNarrowRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+	font-family: 'Microsoft Yahei', 'Yahei','PTSansNarrowRegular',sans-serif;
+	font-size: 16px;
+	background: url(../img/bg-site.gif);
+	max-width: 1920px;
+	margin: 0 auto;
+}
+.en {
+	font-family: 'PTSansNarrowRegular',sans-serif;
+}
+.carousel {
+	font-family: sans-serif;
+}
+h2 {
+	font-weight: normal;
+}
+.navbar {
+	margin-bottom: 0;
+	font-size: 14px;
+}
+.navbar .nav>li>a {
+	color: #fff;
+}
+.navbar-inverse .nav li.dropdown>.dropdown-toggle .caret {
+	border-bottom-color: #FFF;
+	border-top-color: #FFF;
+}
+.navbar-inverse .navbar-inner {
+	border-radius: 0;
+}
+.navbar-inverse .nav li a:hover,
+.navbar-inverse .nav li a:active,
+.navbar-inverse .nav li a:focus,
+.navbar-inverse .nav li.dropdown.open>.dropdown-toggle, .navbar-inverse .nav li.dropdown.active>.dropdown-toggle, .navbar-inverse .nav li.dropdown.open.active>.dropdown-toggle {
+	color: #c98e2f;
+}
+.navbar-inverse .nav li.dropdown>.dropdown-toggle:hover .caret,
+.navbar-inverse .nav li.dropdown>.dropdown-toggle:active .caret,
+.navbar-inverse .nav li.dropdown>.dropdown-toggle:focus .caret,
+.navbar-inverse .nav li.dropdown.open>.dropdown-toggle .caret, .navbar-inverse .nav li.dropdown.active>.dropdown-toggle .caret, .navbar-inverse .nav li.dropdown.open.active>.dropdown-toggle .caret {
+	border-top-color: #c98e2f;
+	border-bottom-color: #c98e2f;
+}
+.brand img {
+	height: 40px;
+}
+
+.carousel-action {
+	position: absolute;
+	right: 5%;
+	bottom: 20%;
+}
+.wskp-carousel-action {
+	right: auto;
+	left: 5%;
+}
+.carousel {
+	margin-bottom: 0;
+}
+.home-strategy {
+	position: relative;
+	text-shadow: 1px 1px 0 #000;
+	overflow: hidden;
+}
+.home-strategy-bg {
+
+}
+.container {
+	
+}
+.home-strategy-content {
+	position: absolute;
+	left: 0;
+	top: 0;
+	color: #FFF;
+	width: 480px;
+	top:18%;
+	left: 18%;
+	line-height: 1.5;
+}
+.home-section-footer {
+	margin-top: 20px;
+}
+.home-section-footer .button,.subpage-block .button {
+	background: #0075a6;
+	border-radius: 5px;
+	padding: 10px 25px;
+	color: #FFF;
+	text-shadow: none;
+}
+.stylize{
+	letter-spacing: -1px;
+}
+.stylize big {
+	font-size: 2em;
+	line-height: 1.3;
+	color: #FFF;
+	text-transform: none;
+}
+
+.pagefooter {
+	background: #111;
+	color: #FFF;
+	margin-bottom: 0;
+	padding: 10px 20px 40px;
+	text-align: right;
+}
+.home-joinus {
+	padding: 60px 0 40px;
+}
+.home-joinus h2 {
+	font-size: 2em;
+	line-height: 1em;
+	text-align: right;
+	margin-top: 0;
+}
+p {
+	line-height: 1.5;
+}
+.subpage-title {
+	background: #f39700;
+	background-size:auto 100%;
+}
+.subpage-title h1 {
+	color: #FFF;
+	font-weight: normal;
+	font-size: 2em;
+	padding: 33.3% 20px 0 0;
+	text-align: right;
+}
+.subpage-title .container-fluid{
+	padding: 0;
+}
+.subpage-block {
+	padding: 40px 20px;
+}
+.subpage-block h2 {
+	text-align: right;
+	padding-right: 20px;
+	margin-top: 0;
+	font-size: 2em;
+}
+.subpage-block p,.subpage-block li {
+	line-height: 26px;
+}
+.about-games {
+	padding: 0 0 40px;
+}
+.about-game-item {
+	width: 33.33333%;
+	margin: 0;
+	padding: 0;
+	float: left;
+	display: inline-block;
+	text-align: center;
+}
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+	width: 100%;
+}
+.fgblue {
+	color: #08c;
+}
+.fgorange {
+	color: #f39700;
+}
+.joinUs-title {
+	background: #08c;
+}
+#map { height: 300px; }
+.contactUs-block {
+	background: url(../img/wood-d.jpg) center top;
+	background-size:100% auto;
+	padding: 40px;
+	color: #FFF;
+	text-shadow: 1px 1px 0 #000;
+}
+.contactUs-block a {
+	color: #f39700;
+}
+#phone {
+	background: url(../img/phone.png) no-repeat left center;
+	height: 613px;
+	max-width: 100%;
+	margin: 0 auto;
+	width: 340px;
+}
+#weibo {
+	width: 297px;
+	background: #FFF;
+	margin-top: 39px;
+	margin-left: 20px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+.followbutton {
+	width: 150px;
+	display: inline-block;
+	text-shadow: none;
+}
+#phone-wrapper {
+		position: relative;
+		height: 500px;
+}
+.monkitem {
+	background-color: #000;
+	text-align: center;
+}
+@media (min-width: 979px) {
+	.navbar .nav>li>a {
+		line-height: 90px;
+		padding:10px 60px;
+	}
+	.navbar .brand {
+		padding-left: 60px;
+		padding-right: 60px;
+	}
+	.navbar .nav>li,.brand {
+		
+		border-right: 1px solid #2a2a2a;
+	}
+	.brand {
+		line-height: 90px;
+	}
+	.navbar .nav .dropdown-toggle .caret {
+		margin-top: 43px;
+	}
+	.contactUs-content {
+		padding-left: 100px;
+	}
+	#phone {
+		position: absolute;
+		top: -200px;
+		right: 20px;
+	}
+}
+@media (max-width: 979px) {
+	.stylize {
+		font-size: 1em;
+		letter-spacing: 1px;
+		line-height: 1.2em;
+	}
+	.btn-navbar {
+		margin-top: 15px;
+	}
+	#phone {
+		position: absolute;
+		top: -100px;
+		right: -10px;
+	}
+}
+
+@media (max-width: 767px) {
+	body {
+		padding:0;
+	}
+
+	.home-joinus {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.home-joinus h2 {
+		text-align: left;
+	}
+	.carousel-action {
+		right:15px;
+		bottom:15px;
+		width:30%;
+	}
+	.home-strategy-content {
+		top:10%;
+	}
+	.stylize {
+		font-size:1.2;
+		letter-spacing:1px;
+		line-height:1.2em;
+	}
+	.home-strategy-bg {
+		width: 100%;
+		height: 390px;
+		overflow: hidden;
+	}
+	.home-strategy-content {
+		width: 80%;
+	}
+	.home-strategy-bg img{
+		max-width: none;
+	}
+	.about-game-item {
+		display: block;
+		width: 100%;
+		margin: 0 auto;
+		float: none;
+	}
+	.subpage-title h1 {
+		font-size: 2em;
+		padding: 0;
+		line-height: 2em;
+		padding-right: 20px;
+	}
+	#phone-wrapper {
+		display: none;
+	}
+	.contactUs-block {
+		padding: 40px 20px;
+	}
+}
+
+
+
+
